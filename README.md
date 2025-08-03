@@ -1,10 +1,3 @@
-# Play55 - Desafio técnico Front-end Web
-Este desafio foi desenhado para avaliarmos tecnicamente suas habilidades e simular um dia de trabalho em nossa equipe e nos ajudar a entender como você aborda desafios de desenvolvimento.
-
-
-----
-
-
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

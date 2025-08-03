@@ -1,6 +1,16 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import { fileURLToPath, URL } from 'url'
+
 export default defineNuxtConfig({
+  css: ['@/assets/css/main.css'],
+  vite: {
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('./', import.meta.url)),
+      }
+    }
+  },
+  modules: ['@nuxtjs/tailwindcss', '@pinia/nuxt'],
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
-  modules: ['@nuxt/image', '@nuxtjs/tailwindcss']
+  ssr: false,
+  typescript: { strict: true }
 })
